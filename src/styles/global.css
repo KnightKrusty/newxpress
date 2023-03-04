@@ -1,0 +1,80 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  @variants responsive {
+    .max-w-8xl {
+      max-width: 100rem;
+    }
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .translate-x-100 {
+      --tw-translate-x: 117%;
+    }
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .h-half-screen {
+      height: 50vh;
+    }
+  }
+}
+
+.bg-contact {
+  background: linear-gradient(
+    168deg,
+    rgba(156, 146, 237, 1) 0%,
+    rgba(72, 68, 245, 1) 100%
+  );
+}
+
+.header::before {
+  content: "";
+  height: 1px;
+  display: block;
+  background-color: currentColor;
+}
+
+.header::after {
+  content: "";
+  height: 1px;
+  display: block;
+  background-color: currentColor;
+}
+
+.header__seenon-text {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.5rem;
+  align-items: center;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.inner-shadow {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.color-box {
+  background: rgba(240, 242, 253, 0.6);
+}
+
+.cmax-width {
+  max-width: 100rem;
+}
+
+.ctranslatex {
+  --tw-translate-x: 117%;
+}

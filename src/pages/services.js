@@ -1,17 +1,17 @@
 import React from "react";
 import NavBar from "../components/navbar.js";
-import ErrorNotFound from "../components/error.js";
-import Footer from "../components/footer.js";
+import BusinessList from "../components/bussiness";
+import Footer from "../components/footer";
 import NewFooter from "../components/newFooter.js";
 
-const ErrorPage = () => {
+const ServicePage = () => {
   return (
     <>
       <NavBar ml={"xl:ml-36"} />
-      <ErrorNotFound />
+      <BusinessList />
       <NewFooter />
     </>
   );
 };
 
-export default ErrorPage;
+export default ServicePage;

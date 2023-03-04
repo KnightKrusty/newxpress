@@ -1,0 +1,22 @@
+<section class="relative pt-12 bg-blueGray-50">
+<div class="items-center flex flex-wrap">
+ 
+  <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+    <div class="md:pr-12">
+      <h3 class="text-3xl font-semibold lg:text-5xl xl:text-7xl">A growing company</h3>
+      <p class="mt-10  text-gray-500 text-lg leading-relaxed text-blueGray-500 lg:text-3xl xl:text-3xl">
+        The extension comes with three pre-built pages to help you get
+        started faster. You can change the text and images and you're
+        good to go.
+        The extension comes with three pre-built pages to help you get
+        started faster. You can change the text and images and you're
+        good to go.
+      </p>
+    </div>
+  </div>
+
+   <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-10">
+    <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
+  </div>
+</div>
+</section>
